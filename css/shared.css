@@ -10,6 +10,7 @@ ul {
 }
 
 header {
+  font-family: "Workbench";
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,7 +24,7 @@ header {
 
 #page-logo a {
   padding: 10px;
-  font-family: "Oleo Script", sans-serif;
+  font-family: "Workbench", sans-serif;
   color: rgb(245, 243, 160);
   font-size: 50px;
   text-decoration: none;

@@ -35,6 +35,8 @@ body{background: #555;}
   }
   
   header {
+    font-family: "Workbench";
+    font-style: italic;
     position: static;
     display: flex;
     justify-content: space-between;
@@ -45,7 +47,7 @@ body{background: #555;}
   }
   .page-logo a {
     padding: 10px;
-    font-family: sans-serif;
+    font-family: "Workbench";
     color: rgb(183, 230, 235);
     font-size: 50px;
     text-decoration: none;
@@ -179,6 +181,10 @@ p {
   border-radius: 5px;
 }
 
+.actions a:hover{
+  background-color: rgb(22, 211, 228);
+  color: chocolate;
+}
 li:nth-of-type(3) {
   grid-column: 1 / span 2;
 }
