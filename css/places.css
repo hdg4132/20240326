@@ -62,3 +62,22 @@
     width: 100%;
     height: 100%;
   }
+/**** 240326 sjh sub section2 ****/
+*{box-sizing: border-box;}
+body{background: #555;}
+.city_bot{display: flex; flex-wrap: wrap; max-width:100%; padding: 0 15px; width: 1240px; margin: 0 auto;}
+.city_con{width: 49%; display: flex;background: #fff; border-radius:15px; overflow: hidden;}
+.city_con:nth-child(2n){margin-left: 2%;}
+.city_con:nth-child(n+3){margin-top: 2%;}
+.city_img{width: 300px; max-width:45%}
+.city_img img{width: 100%; height: 100%; object-fit: cover;}
+.city_txt{width: calc(100% - 250px); padding: 20px 15px;}
+.city_txt h4{font-size:24px; margin: 0 0 10px;}
+.city_txt p{font-size:16px; line-height: 1.4; }
+.city_link{text-align: right; }
+.city_link a{color:#35e0d8; text-decoration: none; position: relative; padding-right:20px;}
+.city_link a span{width: 15px; position: absolute; right: 0; height: 1px; background: #35e0d8; top: 50%; transform:translateY(-50%)}
+.city_link a span:after{content:''; display: block; width: 3px;height: 3px; border:1px solid #35e0d8; border-width:1px 1px 0 0; position: absolute; right: 0; top: 50%; transform:translateY(-50%) rotate(45deg)}
+
+/**** //240326 sjh sub section2 ****/
+
