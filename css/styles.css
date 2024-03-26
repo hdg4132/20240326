@@ -42,3 +42,47 @@
   #box a:hover {
     background-color: rgb(238, 226, 14);
   }
+#highlights {
+    padding: 24px;
+    background:  linear-gradient(0deg, rgb(227,255,253), rgb(202,243,240));
+}
+
+#highlights h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(59,65,64);
+    margin: 24px 0;
+}
+
+#destinations {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 90%;
+}
+
+.destination {
+    margin: 0 20px;
+    text-transform: uppercase;
+    width: 25%;
+}
+
+.destination p {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+    color: rgb(124,123,123);
+}
+
+.destination strong {
+    color: rgb(0,160,117);
+}
+.destination img {
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 2px 4px 8px rgb(68,67,67);
+}
