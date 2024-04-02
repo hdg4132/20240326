@@ -10,7 +10,7 @@ ul {
 }
 
 header {
-  font-family: "Workbench";
+  font-family: "Consolas";
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,7 +24,7 @@ header {
 
 #page-logo a {
   padding: 10px;
-  font-family: "Workbench", sans-serif;
+  font-family: "Consolas", sans-serif;
   color: rgb(245, 243, 160);
   font-size: 50px;
   text-decoration: none;
